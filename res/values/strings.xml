@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Leistungsabzeichen GOLD &#8212; Fragekatalog</string>
+    <string name="FwName">Freiw. Feuerwehr St. Leon</string>
+    <string name="Copyright">© 2012 Feuerwehr St. Leon</string>
+    <string name="Versionsstand">Stand: April 2007</string>
+    <string-array name="Gruppen">
+        <item>Mannschaft</item><item>Maschinist</item><item>Gruppenführer</item>
+    </string-array>
+    <string name="nextQuestion">nächste Frage</string>
+    <string name="ergebnisAuswertung"><u>Auswertungsergebnis</u></string>
+    <string name="quote">Sie haben eine Lösungsquote von</string>
+    <string name="showErrors">Fehler anzeigen</string>
+    <string name="again">Nochmals versuchen</string>
+    <string name="MainText">Leistungsabzeichen GOLD</string>
+    <string name="MainText2">~ Fragekatalog für Baden Württemberg ~</string>
+    <string name="Programmversion">Version 0.85</string>
+    <string name="TestEnde"><u>Prüfung beendet</u></string>
+</resources>

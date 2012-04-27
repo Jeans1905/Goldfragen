@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:orientation="vertical"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <TextView android:id="@+id/textView1" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_horizontal" android:text="@string/ergebnisAuswertung"></TextView>
+    <TextView android:id="@+id/textView2" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginTop="20dp" android:text="@string/quote"></TextView>
+    <TextView android:id="@+id/textView3" android:textAppearance="?android:attr/textAppearanceLarge" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView" android:layout_marginTop="50dp" android:layout_gravity="center_horizontal" android:layout_marginBottom="50dp"></TextView>
+    <TextView android:id="@+id/textView4" android:textAppearance="?android:attr/textAppearanceMedium" android:layout_height="wrap_content" android:layout_width="wrap_content" android:text="TextView"></TextView>
+    <LinearLayout android:layout_width="match_parent" android:id="@+id/linearLayout1" android:layout_height="wrap_content" android:layout_gravity="center" android:paddingTop="20dp" android:orientation="vertical">
+        <Button android:id="@+id/button2" android:layout_height="wrap_content" android:layout_gravity="center" android:text="@string/showErrors" android:layout_width="168dp"></Button>
+        <CheckBox android:text="auch richtige Antworten anzeigen" android:id="@+id/checkBox1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_marginBottom="15dp" android:layout_gravity="center_horizontal"></CheckBox>
+        <Button android:id="@+id/button1" android:layout_height="wrap_content" android:layout_gravity="center" android:text="@string/again" android:layout_width="165dp"></Button>
+    </LinearLayout>
+    
+</LinearLayout>
